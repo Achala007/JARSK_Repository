@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html>
+<title>CV-Janath Francisco</title>
+<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+<link rel = "stylesheet" type="text/css" href="css/HomeCss2.css">
+
+
+</head>
+
+<header>
+<nav id="main_menu">
+<ul>
+  <li class ="navig"><a class="active" href="/cw/Main.php">Home</a></li>
+  <li class ="navig"><a href="/cw/shop/PCgames.php">Service</a></li>
+  <li class ="navig"><a href="/cw/Quiz/Quiz.php">Quiz</a></li>
+  <li class ="navig"><a href="/CW/Comments/rate.php">Rate</a></li>
+  <li class ="navig" ><a href="/CW/CV/meetus.php">Meet us</a></li>
+  <li><font color = "#333">.........................................................................................................................................................................</font></li>
+  <li style="float:right"><a class="active" href="#experience">University Life</a></li>
+  <li  style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
+</nav>
+</header>
+
+<div id="container">
+
+<!--Begin About Section-->
+    <div id="about">
+    	<h1>About</h1>
+ 
+        <div class="top-divider"></div>
+        <div class="content">
+        	<img src="image/janath.jpg" />
+            <h2>My Name is Janath Francisco</h2>
+            <p>I'm a student of Rahula College Matara , and I
+completed by A/L education in mathematics stream and thought of continuing
+my university education by joining to IIT. As a student of Rahula College I
+engaged with many kinds of extra-curricular activities and completed my
+education in 2015. Among the extra-curricular activities I took part in many
+School clubs such as Rahula College ICT club and Science Society. It helped me
+a lot to improve my leadership skills as well as the team work skills. Also I
+practiced Karate during my school time and achieved black belt. It helped me a
+lot pay attention to my studies and calm my mind.
+After starting my university education at IIT, I felt the
+difference between school life and university life within a short period from 2
+months up to now. As my dream career is to be a software tech leaderI’m hoping
+to do the Oracle Certified Java Programing exam after completed my first
+academic year. I would select “Database Systems” module and “Security and
+Forensics” module in Level 5 and 6 which would be a good path to make my
+career dream a success.<br/> And I want to be a gold medalist of the university. I
+believe that the knowledge and achievement I have gained at the university are
+very useful for my future career as a Software Engineer.
+Also self management experience at the university is
+really helpful to be a professional in the engineering field. The advice ,guidance
+and Co-ordination of the lectures are very helpful to get the experience and gain
+the sufficient knowledge on relevant subjects as well as the concepts. In addition
+the environment is very convenient to continue our education. Finally I must say
+that the self-study modules and guidelines are very helpful for me to grasp the
+knowledge of the relevant field. Also after being a Software Engineer developed
+experience and the knowledge gained from the training will be very helpful for
+the performances of my duty. And I'm sure I will be able to full fill my
+professional life by being a Software Engineer in the future and be Happily married once and for all.
+ 
+</p> 
+         
+        </div>
+    <div class="bottom-divider"></div> 
+    </div>
+<!--End About Section-->
+
+<!--Begin Experience Section-->   
+    <div id="experience">
+    	<h1>University Life And Achivements</h1>
+        <div class="top-divider"></div>
+        <div class="content">
+            <div >
+            
+            <p>I'm a student of 1st year at IIT and I'm following
+BEng(Hons) Software Engineering course at University of Westminster . As a 1st
+year student I'm studying4 modules namely Computer system fundamentals,
+Software development principles,Information and data modeling and
+Communication and learning skills. When I was joined to IIT , my
+communication and presentation skills were at a poor place. Now I’m having
+good presenting skills and fluency in English than before.
+Also self study experience at the university is really
+helpful to cover my subject related things. It's totally helped us to understand
+theory parts.<br/><br/>
+Mainly I have learned , how should I manage my time according to academic
+things. Already we have faced In Class Tests in SDP 01 module, Computer
+system fundamentals and Information and data modeling. Results of those tests
+showed the possession that we are in our career. Therefore we can got a proper
+understand that which module that we should give more priority. My aim is to
+perform better in the near future.  </p>
+            </div>
+        </div>    
+        <div class="bottom-divider"></div>
+    </div>
+<!--End Experience Section-->
+
+                <div id="social-footer">
+                	<h1>Follow Me:</h1>
+                    <div id="sm-links">
+                    	<a href="https://www.facebook.com/janathvimukthi.francisco/?hl=en"><img src="../image/fbi.jpg" ></a>&nbsp&nbsp
+           				<a href="facebook.com"><img src="image/twiter.jpg" ></a>&nbsp&nbsp
+            			<a href="https://www.instagram.com/janath_francisco/?hl=en"><img src="../image/insta.png" ></a>&nbsp&nbsp
+						<a href="skype.com"><img src="image/skype.jpg" ></a>
+                  
+                   </div>
+                </div>
+            </div>
+    </div>
+<!--End Connect Section--> 
+
+</div>
+
+ <!-- The JavaScript -->  
+        <script type="text/javascript">
+    		$(function() {
+                $('#main-menu li a').bind('click',function(event){
+                    var $anchor = $(this);
+                    
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1500,'easeInOutExpo');
+
+                    event.preventDefault();
+                });
+            });
+			
+ 			 $(document).ready(function(){
+    		$("a[rel^='prettyPhoto']").prettyPhoto({social_tools:false, deeplinking: false});
+  			});
+
+        </script>
+</body>
+</html>

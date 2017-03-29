@@ -1,0 +1,42 @@
+body{
+	background:	#000000 url(images/page-bg.jpg);
+	margin:0px;
+	font: 400 12px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
+	color:#6a6969;
+}
+h1{font: 400 58px/60px 'Bree Serif', Georgia, serif; color:#6a6969;}
+h2{font: 400 18px/22px 'Bree Serif', Georgia, serif; color:#6a6969;}
+h3{font: 400 14px/16px 'Bree Serif', Georgia, serif; color:#6a6969;}
+
+}
+
+#header #logo{
+	padding-top:40px;
+	float:left;
+}
+#header #main-menu{float:right; padding-top:45px;}
+#header #main-menu li{
+	float:left;
+	list-style:none;
+	margin-left:27px;
+	font: 400 16px/20px 'Bree Serif', Georgia, serif;
+}
+
+}
+img {
+    border-radius: 50%;
+}
+.parentimage { 
+ 
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+} 
+.parentimage:hover {
+	-moz-transform: scale(2);
+	-webkit-transform: scale(2);
+	-o-transform: scale(2);
+	-ms-transform: scale(2);
+	transform: scale(2);
+} 

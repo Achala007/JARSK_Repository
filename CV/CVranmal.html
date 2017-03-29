@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html>
+<title>CV-Ranmal Nanayakkara</title>
+<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+<link rel = "stylesheet" type="text/css" href="css/HomeCss2.css">
+
+
+</head>
+
+<body>
+<header>
+<nav id="main_menu">
+<ul>
+  <li class ="navig"><a class="active" href="/cw/Main.php">Home</a></li>
+  <li class ="navig"><a href="/cw/shop/PCgames.php">Service</a></li>
+  <li class ="navig"><a href="/cw/Quiz/Quiz.php">Quiz</a></li>
+  <li class ="navig"><a href="/CW/Comments/rate.php">Rate</a></li>
+  <li class ="navig" ><a href="/CW/CV/meetus.php">Meet us</a></li>
+  <li><font color = "#333">.........................................................................................................................................................................</font></li>
+  <li style="float:right"><a  class="active"href="#experience">University Life</a></li>
+  <li  style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
+</nav>
+</header>
+<div id="container">
+
+<!--Begin About Section-->
+    <div id="about">
+    	<h1>About</h1>
+ 
+        <div class="top-divider"></div>
+        <div class="content">
+        	<img src="image/ranmal.png" />
+            <h2>My Name is Ranmal Nanayakkara</h2>
+            <p>I can be introduced as a flexible person, energetic and enthusiastic who
+can get adopted to any circumstance. At school I did not participate on
+many sports activities but I was curious of new things and working out
+with new technologies. During school I was able to get good results on
+exams as well as on extracurricular activities. I played Rugby of Rahula
+College in 2011 and 2012 years consecutively. Which helped me a lot to
+improve my leadership skills as well as the team work skills. After
+entering to the university I hope to get join to the rugby team and also
+to get enlisted in Rotaract and IEEE too. Which would help me a lot to
+improve and develop my skills and make some new friends. After
+entering to the university I have enhanced my presentation and
+communications skills as well. Being on university environment has
+made me to get adopted to new challenges and to improve my decision
+making and negotiation skills which would help me in the rest of my life.<br/>
+Since my childhood my dream was to be a Game engineer and to
+work at Crytek as a lead Game Developer to achieve that I’m hoping to
+do Computer Science and also master Game Designing with this degree.
+I would select Game designing based modules in level 5 and 6 which
+would be a good hand to make my career dream a success. My target is
+to get a first class degree from the university & I hope to win the Google
+Summer of code and Microsoft Imaging Cup. I will perform my best in
+the placement year and will impress the company which I will work
+under. I will do about Game Engines as my final year project which
+would help to expand my knowledge about games and also do more
+research about the field hopefully which one day I would lead.
+ 
+</p> 
+         
+        </div>
+    <div class="bottom-divider"></div> 
+    </div>
+<!--End About Section-->
+
+<!--Begin Experience Section-->   
+    <div id="experience">
+    	<h1>University Life And Achivements</h1>
+        <div class="top-divider"></div>
+        <div class="content">
+            <div >
+            
+            <p>I am an undergraduate student of IIT following a Westminster degree.
+At present I am studying 4 modules namely computer system
+fundamentals, Software development principles, Information and data
+modelling and Communication and learning skills. Up to now there
+were 4 ict tests which I were able to score at my best, to do so I had to
+refer more books, study hard. We had to submit a CW for sdp 01 which
+I spent a lot of time on but at last I was able to submit it on time.to
+achieve this far, I had to change my life style completely. Now I’m having
+good presenting skills and fluency in English than before. I’m willing to
+join the rugby team and additionally the rotaract club. My aim is to
+perform better in the near future.<br/><br/> In the future I hope to participate a
+cutting edge and be selected to send my name to the industry not only
+that I hope to participate in many events so I can develop my social life
+and get to know the people and society. I am hoping to enjoy my
+university life as much as I can while making sure I do succeed getting
+a degree, a reputation and many friends which will help me in the future.  </p>
+            </div>
+        </div>    
+        <div class="bottom-divider"></div>
+    </div>
+<!--End Experience Section-->
+
+                <div id="social-footer">
+                	<h1>Follow Me:</h1>
+                    <div id="sm-links">
+                    	<a href="https://www.facebook.com/U.Ranmal/?hl=en"><img src="../image/fbi.jpg" ></a>&nbsp&nbsp
+           				<a href="facebook.com"><img src="image/twiter.jpg" ></a>&nbsp&nbsp
+            			<a href="https://www.instagram.com/ranmal123/?hl=en"><img src="../image/insta.png" ></a>&nbsp&nbsp
+						<a href="skype.com"><img src="image/skype.jpg" ></a>
+                  
+                   </div>
+                </div>
+            </div>
+    </div>
+<!--End Connect Section--> 
+
+</div>
+
+ <!-- The JavaScript -->  
+        <script type="text/javascript">
+    		$(function() {
+                $('#main-menu li a').bind('click',function(event){
+                    var $anchor = $(this);
+                    
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1500,'easeInOutExpo');
+
+                    event.preventDefault();
+                });
+            });
+			
+ 			 $(document).ready(function(){
+    		$("a[rel^='prettyPhoto']").prettyPhoto({social_tools:false, deeplinking: false});
+  			});
+
+        </script>
+</body>
+</html>

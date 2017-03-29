@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html>
+<title>CV-Kalsara Magamage</title>
+<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+<link rel = "stylesheet" type="text/css" href="css/HomeCss2.css">
+
+
+</head>
+
+<body>
+<header>
+<nav id="main_menu">
+<ul>
+ <li class ="navig"><a class="active" href="/cw/Main.php">Home</a></li>
+  <li class ="navig"><a href="/cw/shop/PCgames.php">Service</a></li>
+  <li class ="navig"><a href="/cw/Quiz/Quiz.php">Quiz</a></li>
+  <li class ="navig"><a href="/CW/Comments/rate.php">Rate</a></li>
+  <li class ="navig" ><a href="/CW/CV/meetus.php">Meet us</a></li>
+  <li><font color = "#333">.........................................................................................................................................................................</font></li>
+  <li style="float:right"><a class="active" href="#experience">University Life</a></li>
+  <li  style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
+</nav>
+</header>
+
+<div id="container">
+
+<!--Begin About Section-->
+    <div id="about">
+    	<h1>About</h1>
+ 
+        <div class="top-divider"></div>
+        <div class="content">
+        	<img src="image/kalsara.jpg" />
+            <h2>My Name is Kalsara Magamage</h2>
+            <p>I can be introduced as a person who can bear problems in any circumstance and find
+
+solution to them. At school I was in lot of extracurricular activities. They helped me to build
+my personal profile and skills outstanding. Working as a team helped me to lift my profile
+up. I’m capable of doing various new things and I was successful in them too. I like to work
+with new technology and it guide me to lot of new information that I never know.
+At school I was in chess team in 2010 and 2011 consecutively. And I performed well as
+a one team. I improved my leadership skills by engaging in lot more activities in my school.
+I’ve been a prefect of my school for 4 years since 2011. This position made me a good leader
+with a lot of experience. And I was in science society in school and I’m the president of it. By
+holding a very risky responsibility in school it developed my profile gradually. After entering
+to university I was able to face to many new challenges and finally I adopted to them.<br/>
+University environment made me a good challenger and now I have good decision making
+ability than before.
+In order to complete my BSc(Hons) degree in computer science stream I will perfor
+well with in my entire batch.  In my third year by working as an Intern, I think I will be gain lot of experience and I can
+know what are the skills that the industry expects from a science degree holder. From them I
+can improve my personal profile far as possible.
+ 
+</p> 
+         
+        </div>
+    <div class="bottom-divider"></div> 
+    </div>
+<!--End About Section-->
+
+<!--Begin Experience Section-->   
+    <div id="experience">
+    	<h1>University Life And Achivements</h1>
+        <div class="top-divider"></div>
+        <div class="content">
+            <div >
+            
+            <p>Before I came to IIT, I’m not very well performance my presentation skills in front of
+crowd. But after I join to university, communication skills module did a great upliftment in
+my presentation and speaking skills. Now I have ability to presents and speak formally in
+front of crowd without any hesitation. With Information and Data Modeling module now I
+have ability to create blueprint(model) of that specific system perfectly. In the period of first
+semester in my university life I learn fundamental operations in computer and basic things
+in networking. Now I very well perform in them. And I’m very happy with my first semester
+studies because I developed self-study skills regarding to software development principles.<br/><br/>
+I was able to make some softwares related to java language. After all, with the help of
+communication skills module I have gained abilities in writing CVs and reports perfectly. And
+I’m thinking to increase my knowledge about all the modules that I was done in first
+semester in April vacation.  </p>
+            </div>
+            
+
+        </div>    
+        <div class="bottom-divider"></div>
+    </div>
+<!--End Experience Section-->
+
+                <div id="social-footer">
+                	<h1>Follow Me:</h1>
+                    <div id="sm-links">
+                    	<a href="https://www.facebook.com/Magamage/?hl=en"><img src="../image/fbi.jpg" ></a>&nbsp&nbsp
+           				<a href="facebook.com"><img src="image/twiter.jpg" ></a>&nbsp&nbsp
+            			<a href="https://www.instagram.com/kalsaramagamage/?hl=en"><img src../image/insta.png" ></a>&nbsp&nbsp
+						<a href="facebook.com"><img src="image/skype.jpg" ></a>
+                  
+                   </div>
+                </div>
+            </div>
+    </div>
+<!--End Connect Section--> 
+
+</div>
+
+ <!-- The JavaScript -->  
+        <script type="text/javascript">
+    		$(function() {
+                $('#main-menu li a').bind('click',function(event){
+                    var $anchor = $(this);
+                    
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1500,'easeInOutExpo');
+
+                    event.preventDefault();
+                });
+            });
+			
+ 			 $(document).ready(function(){
+    		$("a[rel^='prettyPhoto']").prettyPhoto({social_tools:false, deeplinking: false});
+  			});
+
+        </script>
+</body>
+</html>

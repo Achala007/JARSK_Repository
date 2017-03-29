@@ -1,0 +1,32 @@
+<nav id="main_menu">
+<ul >
+  <li class ="navig"><a class="active" href="/cw/Main.php">Home</a></li>
+  <li class ="navig"><a href="/cw/shop/PCgames.php">Service</a></li>
+  <li class ="navig"><a href="/cw/Quiz/Quiz.php">Quiz</a></li>
+  <li class ="navig"><a href="/CW/Comments/rate.php">Rate</a></li>
+  <li class ="navig" ><a href="/CW/CV/meetus.php">Meet us</a></li>
+  
+  <?php 
+  session_start();
+  if(isset($_SESSION["user_name"])):
+  ?>
+	  <li class ="navig" style="float:right"><a href="/CW/SignIn & SignUp/logoutProcess.php">Hi!
+	  <font color="red">
+	  <?php 
+	  echo $_SESSION["user_name"]; 
+  ?>
+		</font>
+	  
+	  </a></li>
+	<?php
+	//display poll options if deadline is not expired
+	 else:
+	?>
+	  <li class ="navig" style="float:right"><a href="/CW/SignIn & SignUp/login.html">Login </a></li>
+	  <li class ="navig" style="float:right"><a href="/CW/SignIn & SignUp/SignUp.html">Sign Up </a></li>
+	  
+<?php
+	endif
+?>
+</ul>
+</nav>

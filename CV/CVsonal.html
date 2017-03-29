@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html>
+<title>CV-Sonal Muthukumarana</title>
+<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+<link rel = "stylesheet" type="text/css" href="css/HomeCss2.css">
+
+
+
+</head>
+
+<body>
+<header>
+<nav id="main_menu">
+<ul>
+  <li class ="navig"><a class="active" href="/cw/Main.php">Home</a></li>
+  <li class ="navig"><a href="/cw/shop/PCgames.php">Service</a></li>
+  <li class ="navig"><a href="/cw/Quiz/Quiz.php">Quiz</a></li>
+  <li class ="navig"><a href="/CW/Comments/rate.php">Rate</a></li>
+  <li class ="navig" ><a href="/CW/CV/meetus.php">Meet us</a></li>
+  <li><font color = "#333">.........................................................................................................................................................................</font></li>
+  <li style="float:right"><a class="active" href="#experience">University Life</a></li>
+  <li  style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
+</nav>
+</header>
+
+<div id="container">
+
+<!--Begin About Section-->
+    <div id="about">
+    	<h1>About</h1>
+ 
+        <div class="top-divider"></div>
+        <div class="content">
+        	<img src="image/sonal.jpg" />
+            <h2>My Name is Sonal Muthukumarana</h2>
+            <p>The paint brush and a tubes of water colors were all needed since the small age, and
+whatever comes to my mind was nicely taken in to a piece of paper or on to a
+drawing book , Numerous parts of different jigsaw puzzles pieced together to form
+a new picture was my passion , I always say I’m different. Never quite what people
+expect on a first impression. At the age of six if a person asks me what is your
+ambition? “I want to be an architect” was the only simple answer jumped from my
+mouth. Creativity is my motto. Being innovative and breaking down the
+conservative frame is my hobby, either by altering, removing, or adding new
+elements to the existing.
+I see myself as an ambitious student who prefers in team attempts. Diving and
+swimming gave me the opportunity of being courageous , no matter what type of
+difficulty I have to come across my life ,I learned how to face the obstacles with
+perseverance and patience . I learnt how to cooperate with each other by joining the
+school rugby team and playing 3 years in my school life . </br> 
+Also being the Captain of
+year 2014 in school rugby team helped me a lot to improve my leadership skills .
+Elegant and simple is my style.
+My principles are solid, perhaps the most defining factor in my whole personhood
+was my upbringing. My dream is to become a leading web designer while achieving
+my future prospects. For that I must develop the skills in HTML, CSS, JavaScript,
+and PHP and so on. The problem solving and critical thinking approaches of my
+personality should be developed further.
+To get the utmost experience from the industrial placement which we have to
+complete in our third year will be my top priorities. So I need to get the best out of
+it. I am planning to get good results in my academic studies and get in to a
+multinational company and have Working experience. I don’t have outstanding
+physical features just as some other students, but I know I am a better person inside.
+</p> 
+         
+        </div>
+    <div class="bottom-divider"></div> 
+    </div>
+<!--End About Section-->
+
+<!--Begin Experience Section-->   
+    <div id="experience">
+    	<h1>University Life And Achivements</h1>
+        <div class="top-divider"></div>
+        <div class="content">
+            <div >
+            
+            <p>Entering to a reputed university was my first priority after finishing my Advanced
+Level examination. Even though I did not had a crystal clear ambition of becoming
+a Software engineer, in my opinion, entering to University of Westminster via IIT
+was the best leap that I have taken in my life so far. Here in IIT I am currently
+studying software engineering degree as a full time student. I am studying four
+modules, software development Principle, communication and learning skills,
+Information and data Modeling and computer system fundamental. At the beginning
+the flow of this institution was a bit different from what I expected in a so called
+"UNIVERSITY".<br/><br/>
+I did ICT for advanced level , but programming languages such as java is giving me
+a new experience and I would like to define it as a challenging experience .The first
+coursework was a total nightmare for me, The sleepless nights ,the feeling of
+loneliness for being away from my family for several weekends wasn’t worthless
+as I managed to submit it before the deadline .As a person from down south and
+being a Sinhala medium student was't easy for me when it comes to presentations
+.I have a little stage fear and I must improve my Communication skills ASAP.
+Communication and learning skills module is helping and motivate me to recover
+that.
+I’m willing to join the rugby team and also the rotaract club. My aim is to perform
+better in the near future. </p>
+            </div>
+            
+
+        </div>    
+        <div class="bottom-divider"></div>
+    </div>
+<!--End Experience Section-->
+
+                <div id="social-footer">
+                	<h1>Follow Me:</h1>
+                    <div id="sm-links">
+                    	<a href="https://www.facebook.com/sonalmuthukumarana/?hl=en"><img src="image/fbi.jpg" ></a>&nbsp&nbsp
+           				<a href="facebook.com"><img src="../image/twiter.jpg" ></a>&nbsp&nbsp
+            			<a href="https://www.instagram.com/__.sonaaal.__/?hl=en"><img src="image/insta.png" ></a>&nbsp&nbsp
+						<a href="facebook.com"><img src="../image/skype.jpg" ></a>
+                  
+                   </div>
+                </div>
+            </div>
+    </div>
+<!--End Connect Section--> 
+
+</div>
+
+ <!-- The JavaScript -->  
+        <script type="text/javascript">
+    		$(function() {
+                $('#main-menu li a').bind('click',function(event){
+                    var $anchor = $(this);
+                    
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1500,'easeInOutExpo');
+
+                    event.preventDefault();
+                });
+            });
+			
+ 			 $(document).ready(function(){
+    		$("a[rel^='prettyPhoto']").prettyPhoto({social_tools:false, deeplinking: false});
+  			});
+
+        </script>
+</body>
+</html>

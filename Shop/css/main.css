@@ -1,0 +1,117 @@
+div.elementsQty {
+            color: Green;
+            font-size: 15px;
+            bottom: -190%;
+            position: absolute;
+        }
+div.element1 {
+        width: 500px;
+	height: 210px;
+        border: 1px solid grey;
+        padding: 25px;
+        margin: 25px;
+        position: absolute;
+        right: 46%;
+        bottom:290px;
+        border-radius: 0px;
+        
+        
+    }
+    div.element2 {
+        width: 500px;
+	height: 210px;
+        border: 1px solid grey;
+        padding: 25px;
+        margin: 25px;
+        position: absolute;
+        right: 46%;
+        bottom:30px;
+        border-radius: 0px;
+    }
+div.element3 {
+        width: 500px;
+	height: 210px;
+        border: 1px solid grey;
+        padding: 25px;
+        margin: 25px;
+        position: absolute;
+        right: 46%;
+        bottom:-230px;
+        border-radius: 0px;
+    }
+       div.element4 {
+        width: 500px;
+	height: 210px;
+        border: 1px solid grey;
+        padding: 25px;
+        margin: 25px;
+        position: absolute;
+        right: 3%;
+        bottom:290px;
+        border-radius: 0px;
+    }
+div.element5 {
+        width: 500px;
+	height: 210px;
+        border: 1px solid grey;
+        padding: 25px;
+        margin: 25px;
+        position: absolute;
+        right: 3%;
+        bottom:30px;
+        border-radius: 0px;
+    }
+ div.element6 {
+        width: 500px;
+	height: 210px;
+        border: 1px solid grey;
+        padding: 25px;
+        margin: 25px;
+        position: absolute;
+        right: 3%;
+        bottom:-230px;
+        border-radius: 0px;
+    }
+         
+                 div.txtelement1 {
+        position: absolute;
+        right: 180px;
+        bottom:200px;
+        font-family:"Bitstream Vera Sans Mono";
+	    font-size: 18px;
+	    font-style: normal;
+	    font-variant: normal;
+	    font-weight: 600;
+	color:grey;
+	   
+        
+    }
+       
+.button {
+    background-color: dodgerblue; 
+    border: none;
+    color: white;
+    padding: 10px 4px;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight:700;
+    position: relative;
+    left: 10px;
+}
+
+.button:hover {background-color: #666}
+
+.button:active {
+  background-color: dodgerblue;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+    img{
+       border-radius: 4px;
+    }

@@ -1,0 +1,115 @@
+
+
+#main_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+#sliderFrame, #sliderFrame div {
+    position:relative;
+    top:0px;
+    display:block;
+    box-sizing: content-box;
+    margin:auto;
+}
+
+
+#slider, #slider .sliderInner {
+    width:1000px;height:500px;/* Must be the same size as the slider images */
+    /*border-radius:3px;*/
+}
+
+#slider {
+    background-color:white;
+    /*position:relative;*/
+    margin:0 auto; /*center-aligned*/
+    transform: translate3d(0,0,0);
+}
+/* ------ built-in navigation bullets wrapper ------*/
+#slider .navBulletsWrapper  {
+    top:510px;
+    text-align:center;
+    background:none;
+    position:relative;
+    z-index:3;
+}
+
+/* each bullet */
+#slider .navBulletsWrapper div 
+{
+    width:11px; height:11px;
+    font-size:0;color:White;/*hide the index number in the bullet element*/
+    background:transparent url(Images/Banners/bullet.png) no-repeat 0 0;
+    display:inline-block; *display:inline; zoom:1;
+    overflow:hidden;cursor:pointer;
+    margin:0 6px;/* set distance between each bullet*/
+}
+
+#slider .navBulletsWrapper .active {background-position:0 -11px;}
+
+
+/* --------- Others ------- */
+
+#slider img, #slider>b, #slider a>b {
+    position:absolute; border:none; display:none;
+}
+
+#slider .sliderInner {
+    overflow:hidden;
+    position:absolute; top:0; left:0;
+}
+
+#slider>a, #slider video, #slider audio {display:none;}
+#slider div {-webkit-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
+
+.navig {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ li a:hover:not(.active) {
+    background-color: #111;
+}
+
+ .active {
+    background-color: #4CAF50;
+}
+h2{background-color: lightgrey;}
+
+}
+div.content {
+	position: relative;
+	max-width:500px;
+	
+	
+}
+
+.mySlides {
+	position: absolute;
+	width: 70%;
+	left: 16%
+	
+}
+
+22{
+
+margin-left:200px;
+}
+footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+

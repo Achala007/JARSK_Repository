@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html>
+<title>CV-Achala Piyarathna</title>
+<link href="css/stylesheet.css" rel = "stylesheet" type="text/css">
+<link rel = "stylesheet" type="text/css" href="css/HomeCss2.css">
+</head>
+
+<body>
+<header>
+<nav id="main_menu">
+<ul>
+
+  <li class ="navig"><a class="active" href="/cw/Main.php">Home</a></li>
+  <li class ="navig"><a href="/cw/shop/PCgames.php">Service</a></li>
+  <li class ="navig"><a href="/cw/Quiz/Quiz.php">Quiz</a></li>
+  <li class ="navig"><a href="/CW/Comments/rate.php">Rate</a></li>
+  <li class ="navig" ><a href="/CW/CV/meetus.php">Meet us</a></li>
+  <li><font color = "#333">.........................................................................................................................................................................</font></li>
+  <li style="float:right"><a class="active" href="#experience">University Life</a></li>
+  <li  style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
+</nav>
+</header>
+
+
+<div id="container">
+
+<!--Begin About Section-->
+    <div id="about">
+    	<h1>About</h1>
+ 
+        <div class="top-divider"></div>
+        <div class="content">
+        	<img src="image/achala.jpg" />
+            <h2>My Name is Achala Piyarathna</h2>
+            <p>I believe that I’m a balanced individual with a lot of potential. During my school days I did lot of sports and extra-curricular activities along with the academics. This helped me to sharpen my endurance. 
+ As for sports I did cricket which I represented the school cricket team, and also I played rugby and featured the first 15 school team as well as the 7s’ side school team for 4 consecutive years from 2012-2015. By doing sports I have improved my team work skills and leadership skills. I look forward to get enlist to IIT rugger team and contribute.   
+ As for my soft skills I did announcing for the school’s prefects’ oath and science day. And I was a school senior prefect where I had to speak to large gatherings and express myself.  Being a prefect I had the chance to improve my soft skills, leadership skills and organizing skills. Even after coming to IIT I did some presentations and had some rounds of speeches at the toastmasters’ club. 
+ In the future I prefer to become a software engineer and later look in to a BA degree too.<br/> I would select Network software development module and Web server side programing in level 5 and 6 which will help me to make my career dream a success. Also I will try to win the Google summer of codes price and Imagine cup as I’m very enthusiastic in internet of things, and I already have some ideas turned on. One of the aims I have is to get a 1st class honors’ degree and get the gold medal during the convocation. And also I’m looking forward to work as an intern in a popular IT company and contribute them. As for my final year project I’m going to focus on Network software development field.  
+ 
+</p> 
+         
+        </div>
+    <div class="bottom-divider"></div> 
+    </div>
+<!--End About Section-->
+
+<!--Begin Experience Section-->   
+    <div id="experience">
+    	<h1>University Life And Achivements</h1>
+        <div class="top-divider"></div>
+        <div class="content">
+            <div >
+            
+            <p>I did my Advanced Level examination in 2015 from Science stream. As soon as the results came out I applied for the Westminster University through Informatics Institute of Technology. It has been always my dream to become a software engineer and here I am currently studying at IIT following my dream. As a full time undergraduate student I’m studying modules such as Software Development Principles, Communication and Learning Skills, Information and Data Modeling and Computer System Fundamentals.  
+  Recently there was an in class test on Software Development Principles and I scored 68 marks.<br/><br/> The marks were enough to pass the exam but I knew that I had the potential to score more. I wrote some more in class tests, did presentations and courseworks and now I’m getting comfort with the academic activities in the university.  
+  Since my school days I had the stage fright and fear to talk to large crowds. Once I did the presentations in the Communication and Learning Skills module I was able to beat my fear, and now I’m comfortable talking in front of any crowd.  
+  In the future I would like to join the university rugger team and also the IEEE club and enhance my teamwork skills too.  </p>
+            </div>
+            
+
+        </div>    
+        <div class="bottom-divider"></div>
+    </div>
+<!--End Experience Section-->
+
+                <div id="social-footer">
+                	<h1>Follow Me:</h1>
+                    <div id="sm-links">
+                    	<a href="https://www.facebook.com/achalapiyarathna/?hl=en"><img src="../image/fbi.jpg" ></a>&nbsp&nbsp
+           				<a href="twitter.com"><img src="image/twiter.jpg" ></a>&nbsp&nbsp
+            			<a href="https://www.instagram.com/achalapiyarathna/?hl=en"><img src="../image/insta.png" ></a>&nbsp&nbsp
+						<a href="skype.com"><img src="image/skype.jpg" ></a>
+                  
+                   </div>
+                </div>
+            </div>
+    </div>
+<!--End Connect Section--> 
+
+</div>
+
+ <!-- The JavaScript -->  
+        <script type="text/javascript">
+    		$(function() {
+                $('#main-menu li a').bind('click',function(event){
+                    var $anchor = $(this);
+                    
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1500,'easeInOutExpo');
+
+                    event.preventDefault();
+                });
+            });
+			
+ 			 $(document).ready(function(){
+    		$("a[rel^='prettyPhoto']").prettyPhoto({social_tools:false, deeplinking: false});
+  			});
+
+        </script>
+</body>
+</html>
